@@ -1,0 +1,22 @@
+--create .\Objects\nrf51822_demo.lib
+.\objects\arm_startup_nrf51.o
+.\objects\system_nrf51.o
+.\SysLib\nrf51822_demo.lib
+.\objects\spi.o
+.\objects\nrf_drv_spis.o
+.\objects\nrf_drv_common.o
+.\objects\app_error.o
+.\objects\app_error_weak.o
+.\objects\sys.o
+.\objects\time.o
+.\objects\uart.o
+.\objects\gpio.o
+.\objects\main.o
+.\objects\radio_config.o
+.\objects\memory.o
+.\objects\task.o
+.\objects\runflag.o
+.\objects\decrypt.o
+.\objects\setting.o
+.\objects\analysis.o
+.\objects\crc.o

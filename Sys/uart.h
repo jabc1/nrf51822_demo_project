@@ -4,11 +4,11 @@
 #include "base.h"
 #include "stdio.h"
 
-#define RX_PIN_NUMBER  9  // UART RX pin number.
-#define TX_PIN_NUMBER  8  // UART TX pin number.
+
+#define RX_PIN  11  // UART RX pin number.
+#define TX_PIN  9  // UART TX pin number.
 #define  uart_exit     1   //1¿ªÖÐ¶Ï
 void usart_init(void);
-void usart_send(u8 tx);
-
+void send_uart_byte(uint8_t data);
 #endif
 
